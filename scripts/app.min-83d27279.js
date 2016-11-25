@@ -681,7 +681,7 @@
                             return _.defer(function() {
                                 return e.model.getE().addClass("totally-loaded").off(HP.utils.transition_end).one(HP.utils.transition_end, function() {
                                     return e.$animated_logo.attr("style", ""),
-                                    e.$animated_logo.attr("style", "background-image: url('images/hannah-purmort-logo.gif?" + (new Date).getTime() + "')"),
+                                    e.$animated_logo.attr("style", "background-image: url('/deshdes/images/hannah-purmort-logo.gif?" + (new Date).getTime() + "')"),
                                     e.$instruct_inner.addClass("no-trans"),
                                     e.activate()
                                 })
