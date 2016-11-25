@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]> <html class="no-js weak" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hannah Purmort - Design and Direction</title>
+    <meta name="description" content="Hannah Purmort is a Designer and Art Director who believes in design that connects people.">
+    <meta name="keywords" content="hannah purmort, design, direction, designer, director, graphic design, brand, identity, logo, package, art, connect, denver, colorado">
+    <meta name="copyright" content="Copyright © Hannah Purmort.">
+    <meta name="author" content="GRAVE (http://enterthegrave.com)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hannah Purmort - Design and Direction">
+    <meta property="og:site_name" content="Hannah Purmort">
+    <meta property="og:image" content="http://hannahpurmort.com/largetile.png">
+    <meta property="og:url" content="http://hannahpurmort.com">
+    <meta property="og:description" content="Hannah Purmort is a Designer and Art Director who believes in design that connects people.">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <!-- Apple touch -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+
+    <!-- Android -->
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+
+    <!-- Windows. -->
+    <meta name="msapplication-square70x70logo" content="/smalltile.png">
+    <meta name="msapplication-square150x150logo" content="/mediumtile.png">
+    <meta name="msapplication-wide310x150logo" content="/widetile.png">
+    <meta name="msapplication-square310x310logo" content="/largetile.png">
+
+    <script>
+      var rxaosp = window.navigator.userAgent.match(/Android.*AppleWebKit\/([\d.]+)/);
+      var isaosp = (rxaosp && rxaosp[1] < 537)
+      if (isaosp) {
+        var html = document.documentElement;
+        html.className += " weak";
+      }
+    </script>
+
+    <link rel="stylesheet" href="styles/style-a2cb5999.css"/>
+
+    <script src="scripts/vendor_top.min-9d550bd1.js"></script>
+  </head>
+  <body>
+
+    <div id="wrapper">
+      <div id="pages">
+        <div id="about" class="page"></div>
+        <div id="work" class="page"></div>
+        <div id="landing" class="page"></div>
+      </div>
+      <div id="loader"></div>
+    </div>
+
+    <div id="fallback">
+      <div class="table">
+        <div class="table-cell">
+          <div class="content">
+            <div class="content-inner">
+              <img src="/images/hannah-purmort-logo.gif" alt="Hannah Purmort - Design and Direction" />
+              <div class="weak-copy">
+                <h3>Old Browser Alert!</h3>
+                <p>You need to <a href="http://outdatedbrowser.com">update your browser</a> to view this site :)</p>
+              </div>
+              <div class="no-js-copy">
+                <h3>JavaScript Error!</h3>
+                <p>You need to enable your JavaScript to view this site :)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/vendor.min-735f0ecb.js"></script>
+    <script src="scripts/app.min-83d27279.js"></script>
+  </body>
+</html>
