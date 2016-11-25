@@ -626,7 +626,7 @@
                         i,
                         s;
                     for (this.model.setV($(JST.loader(HP.data.loading))), this.model.getE().append(this.model.getV()), this.$instruct_screen = $("#instruct-screen", this.model.getV()), this.$instruct_inner = $("#instruct-screen-inner", this.model.getV()), this.$instruct_track = $(".track", this.$instruct_screen), this.$instruct_fill = $(".fill", this.$instruct_screen), this.$animated_logo = $("#animated-logo", this.$instruct_screen), this.$scroll_icon = $("#scroll-icon", this.$instruct_screen), this.$loading_screen = $("#loading-screen", this.model.getV()), this.$loading_track = $(".track", this.$loading_screen), this.$loading_fill = $(".fill", this.$loading_screen), this.$counter = $("#counter", this.$loading_screen), this.assets = [
-                        "/images/hannah-purmort-logo.png", "/images/hannah-purmort-logo.gif"
+                        "images/hannah-purmort-logo.png", "images/hannah-purmort-logo.gif"
                     ], this.loaded_perc = 0, this.total = 0, this.loaded = 0, this.count = 0, this.raf = !1, this.dragging = !1, this.process_inertia = !1, this.last_motion = 0, this.direction = 0, this.perc = 0, this.target_y = 0, this.last_y = 0, this.prev_y = 0, this.viewport_y = 0, this.rounded_viewport_y = 0, this.cur_inertia_y = 0, this.cur_vel_y = 0, this.viewport_max = this.model.getV().height(), this.viewport_min = 0, this.threshold = .01, this.velocity = .3, this.ease = .3, this.wheelie_time = null, this.resize_time = null, "home" !== HP.router.getState().key && (this.$loading_track.addClass("right"), this.$instruct_track.addClass("right"), this.$scroll_icon.addClass("right")), i = HP.data.pages.work, e = 0, t = i.length; t > e; e++)
                         s = i[e],
                         this.assets.push(s.poster[0], s.poster[1]);
@@ -681,7 +681,7 @@
                             return _.defer(function() {
                                 return e.model.getE().addClass("totally-loaded").off(HP.utils.transition_end).one(HP.utils.transition_end, function() {
                                     return e.$animated_logo.attr("style", ""),
-                                    e.$animated_logo.attr("style", "background-image: url('/images/hannah-purmort-logo.gif?" + (new Date).getTime() + "')"),
+                                    e.$animated_logo.attr("style", "background-image: url('images/hannah-purmort-logo.gif?" + (new Date).getTime() + "')"),
                                     e.$instruct_inner.addClass("no-trans"),
                                     e.activate()
                                 })
@@ -1177,26 +1177,26 @@
                             category: "Брендирование",
                             role: "Дизайн и разработка",
                             poster: [
-                                "/images/work/johnson-nathan-strohe/poster.jpg", "/images/work/johnson-nathan-strohe/feature.jpg"
+                                "images/work/johnson-nathan-strohe/poster.jpg", "images/work/johnson-nathan-strohe/feature.jpg"
                             ],
                             description: "Описание Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             website: "vk.com",
                             media: [
                                 {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 613]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 800]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 736]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 630]
                                 }
                             ]
@@ -1207,26 +1207,26 @@
                             category: "Брендирование",
                             role: "Дизайн и разработка",
                             poster: [
-                                "/images/work/johnson-nathan-strohe/poster.jpg", "/images/work/johnson-nathan-strohe/feature.jpg"
+                                "images/work/johnson-nathan-strohe/poster.jpg", "images/work/johnson-nathan-strohe/feature.jpg"
                             ],
                             description: "Описание Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             website: "vk.com",
                             media: [
                                 {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 613]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 800]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 736]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 630]
                                 }
                             ]
@@ -1236,26 +1236,26 @@
                             category: "Брендирование",
                             role: "Дизайн и разработка",
                             poster: [
-                                "/images/work/johnson-nathan-strohe/poster.jpg", "/images/work/johnson-nathan-strohe/feature.jpg"
+                                "images/work/johnson-nathan-strohe/poster.jpg", "images/work/johnson-nathan-strohe/feature.jpg"
                             ],
                             description: "Описание Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             website: "vk.com",
                             media: [
                                 {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 613]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 800]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 736]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 630]
                                 }
                             ]
@@ -1265,26 +1265,26 @@
                             category: "Брендирование",
                             role: "Дизайн и разработка",
                             poster: [
-                                "/images/work/johnson-nathan-strohe/poster.jpg", "/images/work/johnson-nathan-strohe/feature.jpg"
+                                "images/work/johnson-nathan-strohe/poster.jpg", "images/work/johnson-nathan-strohe/feature.jpg"
                             ],
                             description: "Описание Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             website: "vk.com",
                             media: [
                                 {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 613]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 800]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 736]
                                 }, {
                                     type: "image",
-                                    src: "/images/work/johnson-nathan-strohe/001_JNS.jpg",
+                                    src: "images/work/johnson-nathan-strohe/001_JNS.jpg",
                                     size: [1200, 630]
                                 }
                             ]
